@@ -41,7 +41,7 @@ ok but should not violate the basics shown in the guide. If in doubt, ask."
   - [ ]
   - [ ]
 - Adrian - 
-  - [ ]
+  - TESTING I CAN MAKE AN EDIT. TO BE REMOVED
   - [ ]
   - [ ]
   - [ ]
