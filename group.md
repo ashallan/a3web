@@ -42,7 +42,7 @@ ok but should not violate the basics shown in the guide. If in doubt, ask."
   - [ ]
 - Adrian - 
   - Applaud Ashlely for fantastic template development
-  - [ ]
+  - Attempt to edit a 2nd document from my GitHub - DONE
   - [ ]
   - [ ]
   - [ ]
