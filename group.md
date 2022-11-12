@@ -34,15 +34,15 @@ ok but should not violate the basics shown in the guide. If in doubt, ask."
 
 ### Assigned template components are as follows:
 - Ashley - 
-  - [ ]
+  - Take a bow for phenomenal template development
   - [ ]
   - [ ]
   - [ ]
   - [ ]
   - [ ]
 - Adrian - 
-  - [ ]
-  - [ ]
+  - Applaud Ashlely for fantastic template development
+  - Attempt to edit a 2nd document from my GitHub - DONE
   - [ ]
   - [ ]
   - [ ]
