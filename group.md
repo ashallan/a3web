@@ -34,14 +34,14 @@ ok but should not violate the basics shown in the guide. If in doubt, ask."
 
 ### Assigned template components are as follows:
 - Ashley - 
-  - [ ]
+  - Take a bow for phenomenal template development
   - [ ]
   - [ ]
   - [ ]
   - [ ]
   - [ ]
 - Adrian - 
-  - TESTING I CAN MAKE AN EDIT. TO BE REMOVED
+  - Applaud Ashlely for fantastic template development
   - [ ]
   - [ ]
   - [ ]
