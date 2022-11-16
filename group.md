@@ -72,7 +72,7 @@ ok but should not violate the basics shown in the guide. If in doubt, ask."
   - Table Elements (e.g. Pricing Table)
 
 
-## Meeting 2 Objectives - DATE: 
+## Meeting 2 Objectives - November 23, 2022 
 
 1. Component presentations.
 2. Combine individual components into design template.
