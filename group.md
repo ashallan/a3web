@@ -19,7 +19,7 @@
 - "Use consistent and purposeful HTML style
 Use the style guide as a base to form your group's defined style. Neatness counts! Adaptations to this style are 
 ok but should not violate the basics shown in the guide. If in doubt, ask."
-- Layout
+- Layout -
   - Typography
     - Usability, readability, accessibility
     - Colours
@@ -47,13 +47,14 @@ ok but should not violate the basics shown in the guide. If in doubt, ask."
   - Content Filling / Page Requirements:
       -Landing Page
   - Photos
-  - [ ]
+  - Proof Reading
   - [ ]
 - Adrian - 
   - Week 12 Item - Navbar - Intitial Proof of Concept Page
+  - Week  12 Item - Hero Bar Proof of Concept Page
   - Navbar - All following pages
   - JavaScript Brainstorming / Implementation
-  - [ ]
+  - Responsive Design Proofing
   - [ ]
 - Khazana - 
   - Week 12 Item - Logo / Name Vision Design insertion
@@ -62,6 +63,7 @@ ok but should not violate the basics shown in the guide. If in doubt, ask."
       - Cartography / Map Design Solution
       - Surveying Solutions
       - Spatial Analysis
+  - Responsive Design Proofing
 - Janet - 
   - Week 12 Item - Font Selection / Color Selection (font colour, background colour, navbar/header/foot colour)
   - Editing / Spellchecking
@@ -70,32 +72,29 @@ ok but should not violate the basics shown in the guide. If in doubt, ask."
       - Team Bios
       - Contact / Pricing
   - Table Elements (e.g. Pricing Table)
+  -Proof Reading
 
 
 ## Meeting 2 Objectives - November 23, 2022 
 
 1. Component presentations.
-2. Combine individual components into design template.
-  - "The entire group should concentrate on one template page together using the collaborative and 
-version control tools built into GIT to work together at the same time."
-  - "Copy the template for each target page in your site and as a team fill in the "content", modifying 
-the design slightly to adapt to the content on each page."
-4. Evaluate coding for errors.
-5. Assess quality of design of website layout and make revisions if necessary.
-6. Submit template.
-7. Determine what new elements need to be divided up amongst the team, based on vision leads for invidiual pages.
-8. Schedule next meeting.
+2. Combine individual components into design template (proof of concept page)
+3. Evaluate coding for errors.
+4. Assess quality of design of website layout and make revisions if necessary.
+5. Submit template this week.
+6. Determine what new elements need to be divided up amongst the team, based on vision leads for invidiual pages.
+7. Schedule next meeting.
 
 ##### ** Meeting Minutes:
 
 
-## Meeting 3 Objectives
+## Meeting 3 Objectives - Set date at Meeting 2
 1. Determine content of website.
 2. Status update for individual components
 2. Detemine further collaboration tasks / requirements
 4. Schedule next meeting.
 
-### Assigned pages and content are as follows:
+### Assigned pages and content are as follows (Filled in at Meeting 2)
 - Ashley - pages
   - [ ]
   - [ ]
