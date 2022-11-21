@@ -1,1 +1,73 @@
-
+body {
+    background-color: #303030;
+    margin: 0;
+    font-family: 'Trebuchet MS', sans-serif;
+  }
+  .hero-image {
+    background: url(//www.esri.com/content/dam/esrisites/en-us/about/events/gis-day/gis-day-main-banner.jpg) no-repeat center; 
+    background-size: cover;
+    height: 325px;
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+  .hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #ffffff;
+  }
+  .sidenav {
+    height: 100%;
+    width: 160px;
+    position: fixed;
+    z-index: 1;
+    top: 50;
+    left: 0;
+    background-color: #212020;
+    overflow-x: hidden;
+    padding-top: 325px;
+  }
+  .sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 28px;
+    color: #b4b4b4;
+    display: block;
+  }
+  .sidenav a:hover {
+    color: #ff9147;
+  } 
+  .content { 
+    margin-left: 165px;
+    font-size: 28px;
+    color: #b4b4b4;
+    padding-top: 325px;
+  }
+  a[href*='//']{
+    color: #b4b4b4;
+  }
+  h1{
+    font-size: 50px;
+    color: #ffffff;
+  }
+  h2{
+    font-size: 30px;
+    color: #ffffff;
+  }
+  h3{
+    font-size: 18px;
+    font-style: italic;
+    color: #787878;
+  }
+  h4{
+    font-size: 20px;
+    font-style: italic;
+    color: #ffffff;
+  }
+  p{
+    font-size: 18px;
+    color: #b4b4b4;
+  }
