@@ -1,73 +1,113 @@
 body {
-    background-color: #303030;
-    margin: 0;
-    font-family: 'Trebuchet MS', sans-serif;
-  }
-  .hero-image {
-    background: url(//www.esri.com/content/dam/esrisites/en-us/about/events/gis-day/gis-day-main-banner.jpg) no-repeat center; 
-    background-size: cover;
-    height: 325px;
-    position: relative;
-    top: 0;
-    left: 0;
-  }
-  .hero-text {
-    text-align: center;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: #ffffff;
-  }
-  .sidenav {
-    height: 100%;
-    width: 160px;
-    position: fixed;
-    z-index: 1;
-    top: 50;
-    left: 0;
-    background-color: #212020;
-    overflow-x: hidden;
-    padding-top: 325px;
-  }
-  .sidenav a {
-    padding: 6px 8px 6px 16px;
-    text-decoration: none;
-    font-size: 28px;
-    color: #b4b4b4;
-    display: block;
-  }
-  .sidenav a:hover {
-    color: #ff9147;
-  } 
-  .content { 
-    margin-left: 165px;
-    font-size: 28px;
-    color: #b4b4b4;
-    padding-top: 325px;
-  }
-  a[href*='//']{
-    color: #b4b4b4;
-  }
-  h1{
-    font-size: 50px;
-    color: #ffffff;
-  }
-  h2{
-    font-size: 30px;
-    color: #ffffff;
-  }
-  h3{
-    font-size: 18px;
-    font-style: italic;
-    color: #787878;
-  }
-  h4{
-    font-size: 20px;
-    font-style: italic;
-    color: #ffffff;
-  }
-  p{
-    font-size: 18px;
-    color: #b4b4b4;
-  }
+  background-color: #013328;
+  margin: 0;
+  font-family: 'Trebuchet MS', sans-serif;
+}
+
+/***************** 
+* Section : Header or Navbar
+* Owner : Adrian Koornneef
+* Date  : Nov-11-22 (v1)
+* From  : Reference w3 source here as required
+******************/
+
+.hero-head {
+  /*background: url(//www.esri.com/content/dam/esrisites/en-us/about/events/gis-day/gis-day-main-banner.jpg) no-repeat center;*/ 
+  background-image: linear-gradient(to right, rgba(89,86.3, 82.4,0),rgba(89,86.3, 82.4,1));
+  background-size: cover;
+ /*background-color: #E3DCD2; */
+  height: 50px;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #ffffff;
+}
+
+/***************** 
+* Section : Navbar
+* Owner : Adrian Koornneef
+* Date  : Nov-11-22 (v1)
+* From  : https://www.w3schools.com/css/tryit.asp?filename=trycss_template4 
+        https://www.w3schools.com/howto/howto_js_tabs.asp
+        https://www.w3schools.com/css/css3_gradients.asp
+        https://developer.mozilla.org/en-US/docs/Web/CSS/text-decoration
+******************/
+
+.MAVsidenav {
+  height: 100%;
+  width: 185px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-image: linear-gradient(rgba(204,139, 101,0.35),rgba(204,139, 101,1));
+  overflow-x: scroll;
+  padding-top: 325px;
+}
+.MAVsidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 24px;
+  color: #b4b4b4;
+  display: block;
+}
+/*The characteristics when hovered over.*/
+.MAVsidenav a:hover {
+  background-color: #E3DCD2 ;
+  color: #100C0D;
+  font-family: monospace;
+} 
+/*to distinguish active page.*/
+.MAVsidenav a.active {
+text-decoration: underline #013328;
+color: #b4b4b4; 
+} 
+
+
+.content { 
+  margin-left: 215px;
+  padding-left: 15px;
+  font-size: 28px;
+  color: #b4b4b4;
+  padding-top: 225px;
+}
+/* This is overwritting navbar font colours, turning off for now, can be turned back on later -AK
+a[href*='//']{
+  color: #b4b4b4;
+}
+*/
+
+h1{
+  font-size: 50px;
+  color: #ffffff;
+}
+h2{
+  font-size: 30px;
+  color: #ffffff;
+}
+h3{
+  font-size: 18px;
+  font-style: italic;
+  color: #787878;
+}
+h4{
+  font-size: 20px;
+  font-style: italic;
+  color: #ffffff;
+}
+p{
+  font-size: 18px;
+  color: #b4b4b4;
+}
+
+* {
+  box-sizing: border-box; /**w3schools, see layout section at bottom*/
+  header.A {
