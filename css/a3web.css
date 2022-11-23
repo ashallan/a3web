@@ -79,7 +79,7 @@ color: #ffffff;
 
 .content { 
   margin-left: 20%;
-  padding-left: 15px;
+  padding-left: 25px;
   font-size: 28px;
   font-family: 'Roboto';
   color: #b4b4b4;
@@ -116,6 +116,3 @@ p{
   color: #b4b4b4;
 }
 
-* {
-  box-sizing: border-box; /**w3schools, see layout section at bottom*/
-  header.A {
