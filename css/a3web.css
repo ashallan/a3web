@@ -51,7 +51,9 @@ body {
   background-image: linear-gradient(rgba(204,139, 101,0.35),rgba(204,139, 101,1));
   overflow-x: scroll;
   padding-top: 325px;
-  padding-right: 15px
+  padding-right: 15px;
+  font-family: 'Roboto';
+  
 }
 .MAVsidenav a {
   padding: 6px 8px 6px 16px;
@@ -65,7 +67,7 @@ body {
 .MAVsidenav a:hover {
   background-color: #E3DCD2 ;
   color: #100C0D;
-  font-family: monospace;
+  font-family: Roboto;
 } 
 /*to distinguish active page.*/
 .MAVsidenav a.active {
