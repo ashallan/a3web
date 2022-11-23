@@ -115,4 +115,12 @@ p{
   font-size: 18px;
   color: #b4b4b4;
 }
+.logo {
+  width: 100%;;
+  height: auto;
+  position: relative;
+  top:0px;
+  left: 16px;
+  z-index: -1;
+}
 
