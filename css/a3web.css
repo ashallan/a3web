@@ -48,7 +48,7 @@ body {
   z-index: 1;
   top: 0;
   left: 0;
-  background-image: linear-gradient(rgba(204,139, 101,0.35),rgba(204,139, 101,1));
+  background-image: linear-gradient(rgba(204,139, 101,1),rgba(204,139, 101,1));
   overflow-x: scroll;
   padding-top: 325px;
   padding-right: 15px
@@ -58,7 +58,7 @@ body {
   text-decoration: none;
   font-family: 'Roboto';
   font-size: 24px;
-  color: #b4b4b4;
+  color: #ffffff;
   display: block;
 }
 /*The characteristics when hovered over.*/
@@ -71,7 +71,7 @@ body {
 .MAVsidenav a.active {
 text-decoration: underline #013328;
 font-family: 'Roboto';
-color: #b4b4b4; 
+color: #ffffff; 
 } 
 
 
