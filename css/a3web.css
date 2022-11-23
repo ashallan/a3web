@@ -45,7 +45,7 @@ body {
   height: 100%;
   width: 20%;
   position: fixed;
-  z-index: 1;
+  z-index: 0;
   top: 0;
   left: 0;
   background-image: linear-gradient(rgba(204,139, 101,1),rgba(204,139, 101,1));
