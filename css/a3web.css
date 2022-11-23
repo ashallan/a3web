@@ -83,7 +83,7 @@ color: #ffffff;
   font-size: 28px;
   font-family: 'Roboto', sans-serif;
   color: #b4b4b4;
-  padding-top: 225px;
+  padding-top: 75px;
 }
 /* This is overwritting navbar font colours, turning off for now, can be turned back on later -AK
 a[href*='//']{
@@ -118,6 +118,9 @@ p{
 
 /* Style Logo - Khazana Ahmadli
 }
+
+*/
+
 .logo { 
   position: relative;
   top:0px;
@@ -128,5 +131,3 @@ p{
   height: auto;
   
 }
-*/
-
