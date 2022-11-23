@@ -79,7 +79,7 @@ color: #ffffff;
 
 .content { 
   margin-left: 20%;
-  padding-left: 15px;
+  padding-left: 25px;
   font-size: 28px;
   font-family: 'Roboto', sans-serif;
   color: #b4b4b4;
@@ -114,5 +114,13 @@ h4{
 p{
   font-size: 18px;
   color: #b4b4b4;
+}
+.logo {
+  width: 100%;;
+  height: auto;
+  position: relative;
+  top:0px;
+  left: 16px;
+  z-index: -1;
 }
 
