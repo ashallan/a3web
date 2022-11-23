@@ -1,7 +1,7 @@
 body {
   background-color: #013328;
   margin: 0;
-  font-family: 'Roboto';
+  font-family: 'Roboto'sans-serif;
 }
 
 /***************** 
@@ -52,13 +52,13 @@ body {
   overflow-x: scroll;
   padding-top: 325px;
   padding-right: 15px;
-  font-family: 'Roboto';
+  font-family: 'Roboto'sans-serif;
   
 }
 .MAVsidenav a {
   padding: 6px 8px 6px 16px;
   text-decoration: none;
-  font-family: 'Roboto';
+  font-family: 'Roboto'sans-serif;
   font-size: 24px;
   color: #ffffff;
   display: block;
@@ -67,12 +67,12 @@ body {
 .MAVsidenav a:hover {
   background-color: #E3DCD2 ;
   color: #100C0D;
-  font-family: Roboto;
+  font-family: 'Roboto'sans-serif;
 } 
 /*to distinguish active page.*/
 .MAVsidenav a.active {
 text-decoration: underline #013328;
-font-family: 'Roboto';
+font-family: 'Roboto'sans-serif;
 color: #ffffff; 
 } 
 
@@ -81,7 +81,7 @@ color: #ffffff;
   margin-left: 20%;
   padding-left: 15px;
   font-size: 28px;
-  font-family: 'Roboto';
+  font-family: 'Roboto'sans-serif;
   color: #b4b4b4;
   padding-top: 225px;
 }
@@ -124,6 +124,3 @@ p{
   z-index: -1;
 }
 
-* {
-  box-sizing: border-box; /**w3schools, see layout section at bottom*/
-  header.A {
