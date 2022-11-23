@@ -121,7 +121,7 @@ p{
 
 */
 .logo { 
-  position: fixed;
+  position: absolute;
   margin-left: 20%;
   padding-left: 15px;
   top:15px;
