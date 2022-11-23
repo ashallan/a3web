@@ -1,7 +1,7 @@
 body {
   background-color: #013328;
   margin: 0;
-  font-family: 'Trebuchet MS', sans-serif;
+  font-family: 'Roboto;
 }
 
 /***************** 
@@ -56,6 +56,7 @@ body {
 .MAVsidenav a {
   padding: 6px 8px 6px 16px;
   text-decoration: none;
+  font-family: 'Roboto';
   font-size: 24px;
   color: #b4b4b4;
   display: block;
@@ -69,6 +70,7 @@ body {
 /*to distinguish active page.*/
 .MAVsidenav a.active {
 text-decoration: underline #013328;
+font-family: 'Roboto';
 color: #b4b4b4; 
 } 
 
@@ -77,6 +79,7 @@ color: #b4b4b4;
   margin-left: 20%;
   padding-left: 15px;
   font-size: 28px;
+  font-family: 'Roboto';
   color: #b4b4b4;
   padding-top: 225px;
 }
@@ -88,10 +91,12 @@ a[href*='//']{
 
 h1{
   font-size: 50px;
+  font-family: 'Vidaloka';
   color: #ffffff;
 }
 h2{
   font-size: 30px;
+  font-family: 'Vidaloka';
   color: #ffffff;
 }
 h3{
