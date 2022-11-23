@@ -125,7 +125,7 @@ p{
   position: relative;
   top:0px;
   left: 16px;
-  z-index: 2;
+  z-index: 5;
   display: block;
   width: 10%;
   height: auto;
