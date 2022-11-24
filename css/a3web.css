@@ -1,3 +1,6 @@
+/*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  */
+/* Use these throughout for setting your comments - Remove these two lines in final end product */
+
 body {
   background-color: #013328;
   margin: 0;
@@ -5,30 +8,18 @@ body {
 }
 
 /***************** 
-* Section : Header or Navbar
+* Section : Header 
 * Owner : Adrian Koornneef
 * Date  : Nov-11-22 (v1)
-* From  : Reference w3 source here as required
+* From  : https://www.w3schools.com/css/css3_gradients.asp
 ******************/
-
+/*Acting as a header that provides accent to the logo*/
 .hero-head {
-  /*background: url(//www.esri.com/content/dam/esrisites/en-us/about/events/gis-day/gis-day-main-banner.jpg) no-repeat center;*/ 
-  background-image: linear-gradient(to right, rgba(89,86.3, 82.4,0),rgba(89,86.3, 82.4,1));
-  background-size: cover;
- /*background-color: #E3DCD2; */
-  height: 50px;
-  position: relative;
-  top: 0;
+  background-image: linear-gradient(to right, rgba(89,86.3, 82.4,0),rgba(89,86.3, 82.4,1)); /*Gradient*/
+  height: 95px;  /*Reference this height for responsive positioning of other elements, they should be below this ad the logo*/
+  position: relative; /*relative to the top of the page*/
+  top: 0;  /*positioning at the very top and left*/
   left: 0;
-}
-
-.hero-text {
-  text-align: center;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: #ffffff;
 }
 
 /***************** 
@@ -37,31 +28,34 @@ body {
 * Date  : Nov-11-22 (v1)
 * From  : https://www.w3schools.com/css/tryit.asp?filename=trycss_template4 
         https://www.w3schools.com/howto/howto_js_tabs.asp
-        https://www.w3schools.com/css/css3_gradients.asp
         https://developer.mozilla.org/en-US/docs/Web/CSS/text-decoration
-******************/
+        https://developer.mozilla.org/en-US/docs/Web/CSS/text-shadow
 
+******************/
+/*  */
 .MAVsidenav {
-  height: 100%;
-  width: 20%;
+  height: 100%;   
+  width: 20%;  /* Will flex, allows enough space for links and phone viewing. All content div elements should be in relation to this with margin-left and pad-left */
   position: fixed;
-  z-index: 1;
+  z-index: 0; /*This must be below the logo if we make any design changes to bring the logo back to overlapping navbar strategy */
   top: 0;
   left: 0;
-  background-image: linear-gradient(rgba(204,139, 101,1),rgba(204,139, 101,1));
-  overflow-x: scroll;
-  padding-top: 325px;
+  background-color:rgb(204,139, 101);
+  overflow-x: scroll;  /* If we lose to much real estate on small screens e.g. smart phones, will allow to scroll to see rest of link*/
+  padding-top: 151px;
   padding-right: 15px;
   font-family: 'Roboto', sans-serif;
-  
 }
+/*For the links within the navar*/
 .MAVsidenav a {
-  padding: 6px 8px 6px 16px;
+  padding: 6px 12px 18px 21px;
   text-decoration: none;
+  text-shadow: 1px 1px 1.25px black;  /* last px variable determines size*/
   font-family: 'Roboto', sans-serif;
   font-size: 24px;
   color: #ffffff;
-  display: block;
+  text-align: left; /*Relevant if the navbar gets to small manages space better*/
+  display: flex;
 }
 /*The characteristics when hovered over.*/
 .MAVsidenav a:hover {
@@ -83,13 +77,8 @@ color: #ffffff;
   font-size: 28px;
   font-family: 'Roboto', sans-serif;
   color: #b4b4b4;
-  padding-top: 225px;
+  padding-top: 75px;
 }
-/* This is overwritting navbar font colours, turning off for now, can be turned back on later -AK
-a[href*='//']{
-  color: #b4b4b4;
-}
-*/
 
 h1{
   font-size: 50px;
@@ -115,12 +104,20 @@ p{
   font-size: 18px;
   color: #b4b4b4;
 }
-.logo {
-  width: 100%;;
-  height: auto;
-  position: relative;
-  top:0px;
-  left: 16px;
-  z-index: -1;
+
+/* Style Logo - Khazana Ahmadli
 }
 
+*/
+.logo { 
+  position: absolute;
+  margin-left: 20%;
+  padding-left: 15px;
+  top:15px;
+  left: 16px;
+  z-index: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  
+}
