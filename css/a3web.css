@@ -54,7 +54,7 @@ body {
   font-family: 'Roboto', sans-serif;
   font-size: 24px;
   color: #ffffff;
-  text-align: center; /*Relevant if the navbar gets to small manages space better*/
+  text-align: left; /*Relevant if the navbar gets to small manages space better*/
   display: flex;
 }
 /*The characteristics when hovered over.*/
