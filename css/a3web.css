@@ -130,7 +130,7 @@ p{
 /* Create three columns that float next to each other */
 .column {
   float: left;
-  width: 31%;
+  width: 22%;
   padding: 15px;
 }
 
