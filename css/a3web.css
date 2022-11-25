@@ -134,7 +134,14 @@ p{
   padding: 15px;
 }
 
-/* Responsive layout so columns stack as page becomes smaller*/
+/* Clear floats after the columns - this is important because it forces the containing element to expand to contain child elements, and forces subsequent elements to appear below it */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes columns stack on top of each other as page size gets smaller*/
 @media screen and (max-width:600px) {
   .column {
     width: 100%;
