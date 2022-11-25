@@ -90,9 +90,12 @@ ok but should not violate the basics shown in the guide. If in doubt, ask."
 
 ## Meeting 3 Objectives - Set date at Meeting 2
 1. Determine content of website.
-2. Status update for individual components
-2. Detemine further collaboration tasks / requirements
-4. Schedule next meeting.
+2. Assess rubric against template
+3. Confirm all necessary changes are in template
+4. Status update for individual components
+      e.g., JavaScript idea and potential website content
+5. Detemine further collaboration tasks / requirements
+
 
 ### Assigned pages and content are as follows (Filled in at Meeting 2)
 - Ashley - pages
