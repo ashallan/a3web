@@ -4,21 +4,37 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>Map Maven</title>
-<!--ResponsiveOption Begin-->
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<!--Original CSS style "Hero Image" found from https://www.w3schools.com/css/css3_backgrounds.asp, modifications made to create desired layout-->
-<!--Navbar CSS Style found from https://www.w3schools.com/css/tryit.asp?filename=trycss_template4, modifications made to personalize-->
-<!--This statement links my page to my css stylesheet to apply the settings I want-->
+  <title>Map Maven</title>
+  <!--ResponsiveOption Begin-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--Original CSS style "Hero Image" found from https://www.w3schools.com/css/css3_backgrounds.asp, modifications made to create desired layout-->
+  <!--Navbar CSS Style found from https://www.w3schools.com/css/tryit.asp?filename=trycss_template4, modifications made to personalize-->
+  <!--This statement links my page to my css stylesheet to apply the settings I want-->
   <link href="css/a3web.css" 
         type="text/css"
         rel="stylesheet"
-        >
-        
+        >  
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Vidaloka|Roboto">
-
+  <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
 </head>
 <body>
+  <!-- Adrian practicing an alert box
+      https://www.w3schools.com/js/tryit.asp?filename=tryjs_output_alert
+      https://www.javatpoint.com/javascript-alert
+      https://stackoverflow.com/questions/1458349/installing-jquery
+        //  $(document).ready(function() { alert('Welcome.\n\n\nThis page is for training purposes only - Map Maven is not a registered business. \n\n\nPlease acknowledge before continuing by clicking OK') });
+    -->
+  <!-- <script>
+    window.alert("Welcome.\n\n\n This page is for training purposes only - Map Maven is not a registered business. \n\n\n Please acknowledge before continuing by clicking OK");
+  </script>
+   -->
+   <script>
+$(document).ready(function(){
+    $(".MAVsidenav").fadeIn();
+    $("#div2").fadeIn("slow");
+    $("#div3").fadeIn(3000);
+  });
+   </script>
 
 
 <!-- 
@@ -54,6 +70,9 @@
 
 
 <div class="MAVsidenav">
+  <div id="div1" style="width:80px;height:80px;display:none;background-color:red;"></div><br>
+  <div id="div2" style="width:80px;height:80px;display:none;background-color:green;"></div><br>
+  <div id="div3" style="width:80px;height:80px;display:none;background-color:blue;"></div>
   <a class = "active" href = "https://ashallan.github.io/a3web/">Home</a> <!-- Active should be set to the page the visitor is currently on -->
   <a href = "https://ashallan.github.io/a3web/about_us.html">About Us</a>
   <a href = "https://ashallan.github.io/team_bios.html">Team Bios</a>
@@ -75,7 +94,6 @@
 <!--This class allows me to fill out the information I want to display in the already created style set out in the css stylesheet link-->
 <div class="content">
   <h1>This is A Lovely Website</h1>
-
   <hr>
 
 <!--This class applies columns set in the stylesheet-->
