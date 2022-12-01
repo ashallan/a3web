@@ -168,3 +168,24 @@ ul.square {
 img {
   max-width:100%;height:auto
 }
+
+/* Style Services
+Owner: Khazana Ahmadli
+Date: December 01, 2022
+https://www.w3schools.com/css/tryit.asp?filename=trycss_ex_images_gallery_responsive
+/* Style images in Cartography page */
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+  margin-left: 85%;
+  padding-left: 5px;
+}
+
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
