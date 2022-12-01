@@ -175,6 +175,13 @@ Date: December 01, 2022
 https://www.w3schools.com/css/tryit.asp?filename=trycss_ex_images_gallery_responsive
 /* Style images in Cartography page */
 
+.mapgallery {
+  margin-left: 50%;
+  padding-left: 5px;
+  font-size: 18px;
+  font-family: 'Roboto', sans-serif;
+  color: #b4b4b4;
+}
 div.gallery img {
   width: 100%;
   height: auto;
@@ -189,7 +196,6 @@ div.gallery img {
   width: 24.99999%;
 }
 
-
 div.cart img {
   width: 100%;
   height: auto;
@@ -203,4 +209,7 @@ div.cart img {
   float: left;
   width: 24.99999%;
 }
+
+
+
 
