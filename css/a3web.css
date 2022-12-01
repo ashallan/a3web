@@ -178,12 +178,27 @@ https://www.w3schools.com/css/tryit.asp?filename=trycss_ex_images_gallery_respon
 div.gallery img {
   width: 100%;
   height: auto;
-  margin-left: 85%;
+  margin-left: 90%;
   padding-left: 5px;
 }
 
 
 .responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+
+div.cart img {
+  width: 100%;
+  height: auto;
+  margin: auto -57px;
+  padding-left: 5px;
+}
+
+
+.res {
   padding: 0 6px;
   float: left;
   width: 24.99999%;
