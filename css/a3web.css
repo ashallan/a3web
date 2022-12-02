@@ -196,11 +196,20 @@ div.gallery img {
   width: 24.99999%;
 }
 
-div.cart img {
-  width: 100%;
+/* Style Services
+Owner: Khazana Ahmadli
+Date: December 01, 2022
+https://www.w3schools.com/css/tryit.asp?filename=trycss_ex_images_gallery_responsive and https://www.w3schools.com/css/tryit.asp?filename=trycss_ex_images_round
+/* Style images in Surveying page */
+
+div.survey img {
+  width: 90%;
   height: auto;
-  margin: auto -600px;
+  margin-left: 90%;
   padding-left: 5px;
+  border-radius: 8px;
+  float: left;
+  
 }
 
 
@@ -210,6 +219,18 @@ div.cart img {
   width: 24.99999%;
 }
 
-
-
+.siteplan 
+{  
+  margin-left: 900px;
+  padding-left: 10px;
+  text-align: right ;
+  font-size: 33px;
+  font-family: 'Roboto', sans-serif;
+  color: #b4b4b4;
+  position:absolute; 
+  left:10px; 
+  top:580px;
+  text-shadow: rgb(0, 255, 191) 1px 0 10px;
+ 
+}
 
