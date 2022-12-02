@@ -228,3 +228,66 @@ div.survey2 img {
   margin-top: 200px;
 }
 
+/*Janet Pricing table
+* {
+  box-sizing: border-box;
+}
+
+/* Create three columns of equal width */
+.columns {
+  float: left;
+  width: 33.3%;
+  padding: 20px;
+  max-width: 300px;
+}
+
+/* Style the list */
+.price {
+  list-style-type: none;
+  border: 1px solid #E3DCD2;
+  margin: 0;
+  padding: 0;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+/* Pricing header */
+.price .header {
+  background-color: #CC8B65;
+  color: white;
+  font-size: 25px;
+}
+
+/* List items */
+.price li {
+  border-bottom: 1px solid #E3DCD2;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Grey list item */
+.price .grey {
+  background-color: #E3DCD2;
+  color: black;
+  font-family: ;
+  font-size: 20px;
+}
+
+/* The "Sign Up" button */
+.button {
+  background-color: #CC8B65;
+  border: none;
+  color:white;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+/* Change the width of the three columns to 100%
+(to stack horizontally on small screens) */
+@media only screen and (max-width: 600px) {
+  .columns {
+    width: 100%;
+  }
+}
