@@ -228,10 +228,13 @@ div.survey2 img {
   margin-top: 200px;
 }
 
-/*Janet Pricing table
-* {
-  box-sizing: border-box;
-}
+/*
+- Section : Pricing>Pricing table
+- Owner : Janet
+- Date  : Dec-02-22
+- From  : https://www.w3schools.com/howto/howto_css_pricing_table.asp
+
+
 
 /* Create three columns of equal width */
 .columns {
@@ -247,8 +250,7 @@ div.survey2 img {
   border: 1px solid #E3DCD2;
   margin: 0;
   padding: 0;
-  -webkit-transition: 0.3s;
-  transition: 0.3s;
+  font-family: 'Roboto', sans-serif;
 }
 
 /* Pricing header */
@@ -256,6 +258,7 @@ div.survey2 img {
   background-color: #CC8B65;
   color: white;
   font-size: 25px;
+  font-family: 'Vidaloka';
 }
 
 /* List items */
@@ -263,14 +266,15 @@ div.survey2 img {
   border-bottom: 1px solid #E3DCD2;
   padding: 20px;
   text-align: center;
+  font-family: 'Roboto', sans-serif;
 }
 
 /* Grey list item */
 .price .grey {
   background-color: #E3DCD2;
   color: black;
-  font-family: ;
   font-size: 20px;
+  font-family: 'Roboto', sans-serif;
 }
 
 /* The "Sign Up" button */
@@ -282,6 +286,7 @@ div.survey2 img {
   text-align: center;
   text-decoration: none;
   font-size: 18px;
+  font-family: 'Roboto', sans-serif;
 }
 
 /* Change the width of the three columns to 100%
