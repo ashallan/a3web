@@ -26,20 +26,42 @@ body {
 * From  : 
 ******************/
 .ClockHolder {
-  position: absolute right;
+  position: right;
   border-style: outset;
   border-color: #100C0D;
   float: right;
   width: 250px;
-  height: 150px;
+  height: 175px;
   background-color: #E3DCD2;
   color:  black;
   text-align: center;
   border-radius: 50% 20% / 10% 40%;
-  margin: 5px;
+  margin: 20px;
 }
 
+.p2 {
+  color: black;
+  text-align: center;
+  flex-wrap: wrap;
+}
 
+#clock {
+  color: black;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+#clock {
+  color: black;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+#showDate {
+  color: black;
+  text-align: center;
+  flex-wrap: wrap;
+}
 /***************** 
 * Section : Navbar
 * Owner : Adrian Koornneef

@@ -47,13 +47,6 @@ $(document).ready(function(){
   <img src="images/logo.png" alt="Logo">
 </div>
 
-<div class = "ClockHolder"></div>
-<p>There's lots to explore..</p>
-<p>But don't lose track of time!</p>
-<p id="clock"></p>
-<p id="showDate"></p>
-<p id="OtherItem"></p>
-</div>
 
 <!-- 
 - Section : Header 
@@ -145,6 +138,25 @@ $(document).ready(function(){
   <h2>More Interesting Content Below Soon!</h2>
  
 </div>
+
+<div class = "ClockHolder">
+<p class = "p2">There's lots to explore..</p>
+<p class = "p2">But don't lose track of time!</p>
+<p id="clock"></p>
+<p id="showDate"></p>
+</div>
+
+<script>
+  var myVar = setInterval(function() {
+    myTimer();
+  }, 1000);
+ 
+  function myTimer() {
+    var timeVariable = new Date();
+    document.getElementById("clock").innerHTML = timeVariable.toLocaleTimeString();
+    document.getElementById("showDate").innerHTML = timeVariable.toLocaleDateString();
+  }
+</script>
 
 
 </body>
