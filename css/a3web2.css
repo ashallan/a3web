@@ -1,0 +1,362 @@
+body {
+    background-color: #013328;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  /***************** 
+  * Section : Header 
+  * Owner : Adrian Koornneef
+  * Date  : Nov-11-22 (v1)
+  * From  : https://www.w3schools.com/css/css3_gradients.asp
+  ******************/
+  /*Acting as a header that provides accent to the logo*/
+  .hero-head {
+    background-image: linear-gradient(to right, rgba(89,86.3, 82.4,0),rgba(89,86.3, 82.4,1)); /*Gradient*/
+    height: 95px;  /*Reference this height for responsive positioning of other elements, they should be below this ad the logo*/
+    position: relative; /*relative to the top of the page*/
+    top: 0;  /*positioning at the very top and left*/
+    left: 0;
+  }
+  
+  /***************** 
+  * Section : AK Experimenting Zone 
+  * Owner : Adrian Koornneef
+  * Date  : 
+  * From  : 
+  ******************/
+  .ClockHolder {
+    position: right;
+    border-style: outset;
+    border-color: #100C0D;
+    float: right;
+    width: 250px;
+    height: 175px;
+    background-color: #E3DCD2;
+    color:  black;
+    text-align: center;
+    border-radius: 50% 20% / 10% 40%;
+    margin: 20px;
+  }
+  
+  .p2 {
+    color: black;
+    text-align: center;
+    flex-wrap: wrap;
+  }
+  
+  #clock {
+    color: black;
+    text-align: center;
+    flex-wrap: wrap;
+  }
+  
+  #clock {
+    color: black;
+    text-align: center;
+    flex-wrap: wrap;
+  }
+  
+  #showDate {
+    color: black;
+    text-align: center;
+    flex-wrap: wrap;
+  }
+  /***************** 
+  * Section : Navbar
+  * Owner : Adrian Koornneef
+  * Date  : Nov-11-22 (v1)
+  * From  : https://www.w3schools.com/css/tryit.asp?filename=trycss_template4 
+          https://www.w3schools.com/howto/howto_js_tabs.asp
+          https://developer.mozilla.org/en-US/docs/Web/CSS/text-decoration
+          https://developer.mozilla.org/en-US/docs/Web/CSS/text-shadow
+  
+  ******************/
+  /*  */
+  .MAVsidenav {
+    margin: 0;
+    padding: 6px;
+    width: 200px;
+    background-color:rgb(204,139,101);
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+  }
+  
+  .MAVsidenav a {
+    display: block;
+    color: black;
+    padding: 16px;
+    text-decoration: none;
+    text-shadow: 1px 1px 1.25px black;  /* last px variable determines size*/
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    color: #ffffff;
+  }
+   
+  .MAVsidenav a.active {
+    text-decoration: underline #013328;
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff; 
+  }
+  
+  .MAVsidenav a:hover {
+    background-color: #E3DCD2 ;
+    color: #100C0D;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  @media screen and (max-width: 700px) {
+    .MAVsidenav {
+      width: 100%;
+      height: auto;
+      position: relative;
+    }
+    .MAVsidenav a {float: left;}
+    div.content {margin-left: 0;}
+  }
+  
+  @media screen and (max-width: 400px) {
+    .MAVsidenav a {
+      text-align: center;
+      float: none;
+    }
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  .content { 
+    margin-left: 200px;
+    padding: 1px 16px;
+    font-size: 28px;
+    font-family: 'Roboto', sans-serif;
+    color: #b4b4b4;
+    padding-top: 75px;
+  }
+  
+  h1{
+    font-size: 50px;
+    font-family: 'Vidaloka';
+    color: #ffffff;
+  }
+  h2{
+    font-size: 30px;
+    font-family: 'Vidaloka';
+    color: #ffffff;
+  }
+  h3{
+    font-size: 18px;
+    font-style: italic;
+    color: #787878;
+  }
+  h4{
+    font-size: 20px;
+    font-style: italic;
+    color: #ffffff;
+  }
+  p{
+    font-size: 18px;
+    color: #b4b4b4;
+  }
+  
+  /* Style Logo - Khazana Ahmadli
+  }
+  
+  */
+  .logo { 
+    position: relative;
+    /* margin-left: 20px;
+    padding-left: 15px; */
+    /* top:15px;
+    left: 16px; */
+    padding-bottom: 10px;
+    padding-left: 10px;
+    z-index: 1;
+    /* display: block; */
+    width: 100%;
+    height: auto;
+    
+  }
+  /***************** 
+  * Section : Body 
+  * Owner : Ashley Allan
+  * Date  : Nov-25-22
+  * From  : https://www.w3schools.com/css/tryit.asp?filename=trycss_website_layout_grid
+  ******************/
+  /* Create three columns that float next to each other */
+  .column {
+    float: left;
+    width: 22%;
+    padding: 15px;
+  }
+  
+  /* Clear floats after the columns - this is important because it forces the containing element to expand to contain child elements, and forces subsequent elements to appear below it */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive layout - makes columns stack on top of each other as page size gets smaller*/
+  @media screen and (max-width:600px) {
+    .column {
+      width: 100%;
+    }
+  }
+  
+  /* Style Services
+  Owner: Khazana Ahmadli
+  Date: November 28, 2022
+  From https://www.w3schools.com/css/tryit.asp?filename=trycss_list-style-type_ex */ 
+  
+  /* Styles services content*/
+  .services { 
+    margin-left: 25%;
+    padding-left: 5px;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    color: #b4b4b4;
+    padding-top: 75px;
+    line-height: 2.5;
+  }
+  /* Adds square bullets to the listed content */
+  ul.square {
+    list-style-type: square;
+  }
+  
+  img {
+    max-width:100%;height:auto
+  }
+  
+  /* Style Services
+  Owner: Khazana Ahmadli
+  Date: December 01, 2022
+  https://www.w3schools.com/css/tryit.asp?filename=trycss_ex_images_gallery_responsive
+  /* Style images in Cartography page */
+  
+  .mapgallery {
+    margin-left: 50%;
+    padding-left: 5px;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    color: #b4b4b4;
+  }
+  div.gallery img {
+    width: 100%;
+    height: auto;
+    margin-left: 90%;
+    padding-left: 5px;
+  }
+  
+  
+  .responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+  }
+  
+  /* Style Services
+  Owner: Khazana Ahmadli
+  Date: December 01, 2022
+  https://www.w3schools.com/css/tryit.asp?filename=trycss_ex_images_gallery_responsive and https://www.w3schools.com/css/tryit.asp?filename=trycss_ex_images_round
+  /* Style images in Surveying page */
+  
+  div.survey img {
+    max-width:100%;
+    height: auto;
+    margin-left: 25%;
+    padding-left: 5px;
+    border-radius: 25px;
+  }
+  
+  div.survey1 img {
+    max-width:100%;
+    height: auto;
+    margin-left: 65%;
+    padding-left: 5px;
+    border-radius: 25px;
+    margin-top: 90px;
+  }
+  
+  div.survey2 img {
+    max-width:100%;
+    height: auto;
+    margin-left: 25%;
+    padding-left: 5px;
+    border-radius: 25px;
+    margin-top: 200px;
+  }
+  
+  /*
+  - Section : Pricing>Pricing table
+  - Owner : Janet
+  - Date  : Dec-02-22
+  - From  : https://www.w3schools.com/howto/howto_css_pricing_table.asp
+  
+  
+  
+  /* Create three columns of equal width */
+  .columns {
+    float: left;
+    width: 33.3%;
+    padding: 20px;
+    max-width: 300px;
+  }
+  
+  /* Style the list */
+  .price {
+    list-style-type: none;
+    border: 1px solid #E3DCD2;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  /* Pricing header */
+  .price .header {
+    background-color: #CC8B65;
+    color: white;
+    font-size: 25px;
+    font-family: 'Vidaloka';
+  }
+  
+  /* List items */
+  .price li {
+    border-bottom: 1px solid #E3DCD2;
+    padding: 20px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  /* Grey list item */
+  .price .grey {
+    background-color: #E3DCD2;
+    color: black;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  /* The "Sign Up" button */
+  .button {
+    background-color: #CC8B65;
+    border: none;
+    color:white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  /* Change the width of the three columns to 100%
+  (to stack horizontally on small screens) */
+  @media only screen and (max-width: 600px) {
+    .columns {
+      width: 100%;
+    }
+  }
