@@ -20,6 +20,27 @@ body {
 }
 
 /***************** 
+* Section : AK Experimenting Zone 
+* Owner : Adrian Koornneef
+* Date  : 
+* From  : 
+******************/
+.ClockHolder {
+  position: absolute right;
+  border-style: outset;
+  border-color: #100C0D;
+  float: right;
+  width: 250px;
+  height: 150px;
+  background-color: #E3DCD2;
+  color:  black;
+  text-align: center;
+  border-radius: 50% 20% / 10% 40%;
+  margin: 5px;
+}
+
+
+/***************** 
 * Section : Navbar
 * Owner : Adrian Koornneef
 * Date  : Nov-11-22 (v1)
