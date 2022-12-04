@@ -375,7 +375,7 @@ a.one:link, a.one:visited {
   color: white;
   padding: 18px 21px;
   text-align:justify;
-  text-decoration:solid;
+  text-decoration:none;
   display: inline-block;
 }
 
