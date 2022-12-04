@@ -216,7 +216,7 @@ img {
 Owner: Khazana Ahmadli
 Date: December 01, 2022
 https://www.w3schools.com/css/tryit.asp?filename=trycss_ex_images_gallery_responsive
-/* Style images in Cartography page */
+/* Style images in Cartography/Map Design page */
 
 .mapgallery {
   margin-left: 50%;
@@ -346,7 +346,7 @@ div.survey2 img {
 - Owner : Khazana Ahmadli
 - Date  : Dec-02-22
 - From  : https://www.w3schools.com/cssref/playdemo.php?filename=playcss_text-shadow  */
-
+/* Style Images and header in Software Page*/
 div.software {
   margin-left: 40%;
   padding-left: 8px;
@@ -363,3 +363,23 @@ div.pumpkin img {
   padding-left: 5px;
   border-radius: 70%;
 }
+/*
+- Section : Spatial Analysis Page
+- Owner : Khazana Ahmadli
+- Date  : Dec-02-22
+- From  : https://www.w3schools.com/css/tryit.asp?filename=trycss_link_advanced  */
+
+/* Style links for Web Maps*/
+a.one:link, a.one:visited {
+  background-color: #CC8B65;
+  color: white;
+  padding: 18px 21px;
+  text-align:justify;
+  text-decoration:solid;
+  display: inline-block;
+}
+
+a.one:hover, a.one:active {
+  background-color: #CC8B65;
+}
+
