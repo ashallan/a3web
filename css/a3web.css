@@ -234,7 +234,7 @@ div.gallery img {
 
 
 .responsive {
-  padding: 0 6px;
+  padding: 0 3px;
   float: left;
   width: 24.99999%;
 }
@@ -338,4 +338,28 @@ div.survey2 img {
   .columns {
     width: 100%;
   }
+}
+
+
+/*
+- Section : Sofware Solutions Page
+- Owner : Khazana Ahmadli
+- Date  : Dec-02-22
+- From  : https://www.w3schools.com/cssref/playdemo.php?filename=playcss_text-shadow  */
+
+div.software {
+  margin-left: 40%;
+  padding-left: 8px;
+  font-size: 15px;
+  font-family: 'Roboto', sans-serif;
+  color: #b4b4b4;
+  text-shadow:5px 5px 5px black;
+}
+
+div.pumpkin img {
+  width: 100%;
+  height: auto;
+  margin-left: 90%;
+  padding-left: 5px;
+  border-radius: 70%;
 }
