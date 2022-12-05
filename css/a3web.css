@@ -376,7 +376,7 @@ a.one:link, a.one:visited {
   padding: 18px 21px;
   text-align:justify;
   text-decoration:none;
-  display: inline-block;
+  display:inline-grid;
 }
 
 a.one:hover, a.one:active {
