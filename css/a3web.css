@@ -4,121 +4,164 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
-/***************** 
-* Section : Header 
-* Owner : Adrian Koornneef
-* Date  : Nov-11-22 (v1)
-* From  : https://www.w3schools.com/css/css3_gradients.asp
-******************/
-/*Acting as a header that provides accent to the logo*/
-.hero-head {
-  background-image: linear-gradient(to right, rgba(89,86.3, 82.4,0),rgba(89,86.3, 82.4,1)); /*Gradient*/
-  height: 95px;  /*Reference this height for responsive positioning of other elements, they should be below this ad the logo*/
-  position: relative; /*relative to the top of the page*/
-  top: 0;  /*positioning at the very top and left*/
-  left: 0;
-}
 
-/***************** 
-* Section : AK Experimenting Zone 
-* Owner : Adrian Koornneef
-* Date  : 
-* From  : 
-******************/
-.ClockHolder {
-  position: right;
-  border-style: outset;
-  border-color: #100C0D;
-  float: right;
-  width: 250px;
-  height: 175px;
-  background-color: #E3DCD2;
-  color:  black;
-  text-align: center;
-  border-radius: 50% 20% / 10% 40%;
-  margin: 20px;
-}
+  /***************** 
+  * Section : Javascript Clock Holder
+  * Owner : Adrian Koornneef
+  * Date  : 2022-12-06
+  * From  : https://codepen.io/Tcip/pen/BNKjeN
+            https://flexiple.com/javascript/javascript-clock/
+            https://developer.mozilla.org/en-US/docs/Web/CSS/border-radius
+  ******************/
+  .ClockHolder {
+    position: right;
+    border-style: outset;
+    border-color: #100C0D;
+    float: right;
+    width: 250px;
+    height: 260px;
+    background-color: #E3DCD2;
+    color:  black;
+    text-align: center;
+    border-radius: 50% 20% / 10% 40%;
+    margin: 20px;
+  }
+  
+  #p2 {
+    color: black;
+    text-align: center;
+    flex-wrap: wrap;
+    font-style: italic;
+  }
 
-.p2 {
-  color: black;
-  text-align: center;
-  flex-wrap: wrap;
-}
+  #p3 {
+    color: black;
+    text-align: center;
+    flex-wrap: wrap;
+    font-style: italic;
+  }
+  
+  #clock {
+    color: black;
+    text-align: center;
+    flex-wrap: wrap;
+  }
+  
+  #clock {
+    color: black;
+    text-align: center;
+    flex-wrap: wrap;
+  }
+  
+  #showDate {
+    color: black;
+    text-align: center;
+    flex-wrap: wrap;
+  }
+  /***************** 
+  * Section : Navbar
+  * Owner : Adrian Koornneef
+  * Date  : Nov-12-06 (v2)
+  * From  : https://www.w3schools.com/css/tryit.asp?filename=trycss_template4 
+          https://www.w3schools.com/howto/howto_js_tabs.asp
+          https://developer.mozilla.org/en-US/docs/Web/CSS/text-decoration
+          https://developer.mozilla.org/en-US/docs/Web/CSS/text-shadow
+          https://developer.mozilla.org/en-US/docs/Web/CSS/border-right
+  
+  ******************/
+  .MAVsidenav {
+    margin: 0;
+    padding: 6px;
+    width: 200px;
+    background-color:rgb(204,139,101);
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+    border-right: 3mm ridge rgba(227, 220, 210, .6);
+  }
+  
+  .MAVsidenav a {
+    display: block;
+    color: black;
+    padding: 16px;
+    text-decoration: none;
+    text-shadow: 1px 1px 1.25px black;  /* last px variable determines size*/
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    color: #ffffff;
+  }
+   
+  .MAVsidenav a.active {
+    text-decoration: underline #013328;
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff; 
+  }
+  
+  .MAVsidenav a:hover {
+    background-color: #E3DCD2 ;
+    color: #100C0D;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  /** Respsonsive element allows restacking of navbar **/
+  /** Side Bar limit **/
+  @media screen and (max-width: 700px) {
+    .MAVsidenav {
+      width: 100%;
+      height: auto;
+      position: relative;
+    }
+    .MAVsidenav a {float: left;}
+    div.content {margin-left: 0;}
+    div.services {margin-left: 0;}
+  }
+  
+ /** Top Bar limit **/
+  @media screen and (max-width: 400px) {
+    .MAVsidenav a {
+      text-align: center;
+      float: none;
+    }
+  }
+  /*************************************
+  * Section : Button
+  * Owner : Adrian Koornneef
+  * Date  : Nov-12-06 (v2)
+  Experimenting zone 
+  https://www.w3schools.com/howto/howto_css_outline_buttons.asp
+  https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_buttons_animate3
+ *************************************/
 
-#clock {
-  color: black;
-  text-align: center;
-  flex-wrap: wrap;
-}
+  .MavButton {
+    padding: 15px 25px;
+    font-size: 21px;
+    text-align: center;
+    cursor: crosshair;
+    outline: none;
+    color: #fff;
+    text-shadow: 1px 1px 1.25px black;
+    background-color: rgb(204,139,101);
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 5px rgb(48, 48, 48);
+  }
 
-#clock {
-  color: black;
-  text-align: center;
-  flex-wrap: wrap;
-}
+  .MavButton:hover {background-color: #777777}
 
-#showDate {
-  color: black;
-  text-align: center;
-  flex-wrap: wrap;
-}
-/***************** 
-* Section : Navbar
-* Owner : Adrian Koornneef
-* Date  : Nov-11-22 (v1)
-* From  : https://www.w3schools.com/css/tryit.asp?filename=trycss_template4 
-        https://www.w3schools.com/howto/howto_js_tabs.asp
-        https://developer.mozilla.org/en-US/docs/Web/CSS/text-decoration
-        https://developer.mozilla.org/en-US/docs/Web/CSS/text-shadow
+  .MavButton:active {
+  background-color: #7700ff;
+  box-shadow: 0 5px rgb(48, 48, 48);
+  transform: translateY(4px);
+  }
 
-******************/
-/*  */
-.MAVsidenav {
-  height: 100%;   
-  width: 20%;  /* Will flex, allows enough space for links and phone viewing. All content div elements should be in relation to this with margin-left and pad-left */
-  position: fixed;
-  z-index: 0; /*This must be below the logo if we make any design changes to bring the logo back to overlapping navbar strategy */
-  top: 0;
-  left: 0;
-  background-color:rgb(204,139, 101);
-  overflow-x: scroll;  /* If we lose to much real estate on small screens e.g. smart phones, will allow to scroll to see rest of link*/
-  padding-top: 151px;
-  padding-right: 15px;
-  font-family: 'Roboto', sans-serif;
-}
-/*For the links within the navar*/
-.MAVsidenav a {
-  padding: 6px 12px 18px 21px;
-  text-decoration: none;
-  text-shadow: 1px 1px 1.25px black;  /* last px variable determines size*/
-  font-family: 'Roboto', sans-serif;
-  font-size: 24px;
-  color: #ffffff;
-  text-align: left; /*Relevant if the navbar gets to small manages space better*/
-  display: flex;
-}
-/*The characteristics when hovered over.*/
-.MAVsidenav a:hover {
-  background-color: #E3DCD2 ;
-  color: #100C0D;
-  font-family: 'Roboto', sans-serif;
-} 
-/*to distinguish active page.*/
-.MAVsidenav a.active {
-text-decoration: underline #013328;
-font-family: 'Roboto', sans-serif;
-color: #ffffff; 
-} 
-
-
-.content { 
-  margin-left: 20%;
-  padding-left: 25px;
-  font-size: 28px;
-  font-family: 'Roboto', sans-serif;
-  color: #b4b4b4;
-  padding-top: 75px;
-}
+  .content { 
+    margin-left: 225px;
+    padding-left: 10px;
+    font-size: 28px;
+    font-family: 'Roboto', sans-serif;
+    color: #b4b4b4;
+    padding-top: 75px;
+  }
 
 h1{
   font-size: 50px;
@@ -146,20 +189,17 @@ p{
 }
 
 /* Style Logo - Khazana Ahmadli
+ADRIAN - I had to make some updates to this so that it was reshaped and sits in the navbar
 }
 
 */
 .logo { 
-  position: absolute;
-  margin-left: 20%;
-  padding-left: 15px;
-  top:15px;
-  left: 16px;
+  position: relative;
+  padding-bottom: 10px;
+  padding-left: 10px;
   z-index: 1;
-  display: block;
   width: 100%;
   height: auto;
-  
 }
 /***************** 
 * Section : Body 
@@ -196,8 +236,8 @@ From https://www.w3schools.com/css/tryit.asp?filename=trycss_list-style-type_ex 
 
 /* Styles services content*/
 .services { 
-  margin-left: 25%;
-  padding-left: 5px;
+  margin-left: 225px;
+  padding-left: 10px;
   font-size: 18px;
   font-family: 'Roboto', sans-serif;
   color: #b4b4b4;
@@ -377,7 +417,7 @@ a.one:link, a.one:visited {
   padding: 18px 21px;
   text-align:justify;
   text-decoration:none;
-  display: inline-block;
+  display:inline-grid;
 }
 
 a.one:hover, a.one:active {

@@ -14,47 +14,32 @@
         type="text/css"
         rel="stylesheet"
         >
-        
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Vidaloka|Roboto">
-
+  <script type="text/javascript" src="javascript/a3webJavaS.js"></script>
 </head>
 <body>
 
-
-<!-- 
+<!-----------------------------------------------
+  * Section : Navbar
+  * Owner : Adrian Koornneef
+  * Date  : Nov-06-22 (v2)
+  * From  : https://www.w3schools.com/css/tryit.asp?filename=trycss_template4 
+          https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_sidebar_responsive
+          https://developer.mozilla.org/en-US/docs/Web/CSS/text-decoration
+          https://developer.mozilla.org/en-US/docs/Web/CSS/border-right
+-------------------------------------------------->
+<!-----------------------------------------------
 - Section : logo
 - Owner : Khazana Ahmadli
 - Date  :: Nov-11-23 (v1)
--->
-
-<div class = "logo">
-  <img src="images/logo.png" alt="Logo">
-</div>
-
-
-<!-- 
-- Section : Header 
-- Owner : Adrian Koornneef
-- Date  : Nov-11-22 (v1)
-- From  : https://www.w3schools.com/css/css3_gradients.asp
--->
-
-<!-- Acting as a header that provides accent to the logo -->
-<div class="hero-head">
-</div>
-
-
-<!--
-- Section : Navbar
-- Owner : Adrian Koornneef
-- Date  : Nov-11-22 (v1)
-- From  : https://www.w3schools.com/css/tryit.asp?filename=trycss_template4 
-          https://www.w3schools.com/howto/howto_js_tabs.asp
--->
-
-
+------------------------------------------------->
+<!-- Active to be set on the current page --->
+<!-- Logo placed in the navbar --->
 <div class="MAVsidenav">
-  <a class = "active" href = "https://ashallan.github.io/a3web/">Home</a> <!-- Active should be set to the page the visitor is currently on -->
+  <div class = "logo">
+    <img src="images/logo3.png" alt="Logo">
+  </div>
+  <a class = "active" href = "index.html">Home</a> 
   <a href = "AboutUs.html">About Us</a>
   <a href = "Bios.html">Team Bios</a>
   <a href = "SpatialAnalysis.html">Spatial Analysis</a>
@@ -62,7 +47,7 @@
   <a href = "Surveying.html">Surveying</a>
   <a href = "SoftwareSolutions.html">Software Solutions</a>
   <a href = "pricing.html">Pricing</a>
-
+  <a href = "ContactUs.html">Contact Us</a>
 </div>
 <!-- 
 - Section : Body
@@ -145,6 +130,22 @@
  
 </div>
 
+<!-----------------------------------------------------------------------
+* Section : Javascript Clock Holder
+* Owner : Adrian Koornneef
+* Date  : 2022-12-06
+* From  : https://codepen.io/Tcip/pen/BNKjeN
+          https://flexiple.com/javascript/javascript-clock/
+          https://developer.mozilla.org/en-US/docs/Web/CSS/border-radius
+------------------------------------------------------------------------->
 
+<div class = "ClockHolder">
+  <button class = "MavButton" onclick = "myFunction()">Having fun?</button>
+  <p id = "p2"></p>
+  <p id = "p3"></p>
+  <p id="clock"></p>
+  <p id="showDate"></p>
+  </div>
+<!----------------------------------------------------------------------->
 </body>
 </html> 
