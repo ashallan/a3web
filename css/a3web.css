@@ -19,7 +19,7 @@ body {
     border-color: #100C0D;
     float: right;
     width: 250px;
-    height: 175px;
+    height: 260px;
     background-color: #E3DCD2;
     color:  black;
     text-align: center;
@@ -27,7 +27,13 @@ body {
     margin: 20px;
   }
   
-  .p2 {
+  #p2 {
+    color: black;
+    text-align: center;
+    flex-wrap: wrap;
+  }
+
+  #p3 {
     color: black;
     text-align: center;
     flex-wrap: wrap;
@@ -115,7 +121,41 @@ body {
       float: none;
     }
   }
-  /**************************************/
+  /*************************************
+  * Section : Button
+  * Owner : Adrian Koornneef
+  * Date  : Nov-12-06 (v2)
+  Experimenting zone 
+  https://www.w3schools.com/howto/howto_css_outline_buttons.asp
+  https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_buttons_animate3
+ *************************************/
+
+  .MavButton {
+    padding: 15px 25px;
+    font-size: 21px;
+    text-align: center;
+    cursor: crosshair;
+    outline: none;
+    color: #fff;
+    background-color: rgb(204,139,101);
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 5px rgb(48, 48, 48);
+  }
+
+  .MavButton:hover {background-color: #777777}
+
+  .MavButton:active {
+  background-color: #777777;
+  box-shadow: 0 5px rgb(48, 48, 48);
+  transform: translateY(4px);
+  }
+
+
+
+
+
+
 
   .content { 
     margin-left: 225px;
