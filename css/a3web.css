@@ -146,7 +146,7 @@ body {
   .MavButton:hover {background-color: #777777}
 
   .MavButton:active {
-  background-color: #777777;
+  background-color: #7700ff;
   box-shadow: 0 5px rgb(48, 48, 48);
   transform: translateY(4px);
   }
