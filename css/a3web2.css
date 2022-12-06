@@ -20,10 +20,12 @@ body {
   }
   
   /***************** 
-  * Section : AK Experimenting Zone 
+  * Section : Javascript Clock Holder
   * Owner : Adrian Koornneef
-  * Date  : 
-  * From  : 
+  * Date  : 2022-12-06
+  * From  : https://codepen.io/Tcip/pen/BNKjeN
+            https://flexiple.com/javascript/javascript-clock/
+            https://developer.mozilla.org/en-US/docs/Web/CSS/border-radius
   ******************/
   .ClockHolder {
     position: right;
@@ -72,7 +74,7 @@ body {
           https://developer.mozilla.org/en-US/docs/Web/CSS/text-shadow
   
   ******************/
-  /*  */
+  
   .MAVsidenav {
     margin: 0;
     padding: 6px;
@@ -123,12 +125,7 @@ body {
     }
   }
   
-  
-  
-  
-  
-  
-  
+  /***********************/
   
   .content { 
     margin-left: 200px;

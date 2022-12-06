@@ -15,7 +15,7 @@
         rel="stylesheet"
         >  
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Vidaloka|Roboto">
-  <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+  <script type="text/javascript" src="javascript/a3webJavaS.js"></script>
 </head>
 <body>
   <!-- Adrian practicing an alert box
@@ -131,7 +131,7 @@
  
 </div>
 
-
+<!-- onload="myTimer()" -->
 <div class = "ClockHolder">
   <p class = "p2">There's lots to explore..</p>
   <p class = "p2">But don't lose track of time!</p>
@@ -139,17 +139,7 @@
   <p id="showDate"></p>
   </div>
 
-<script>
-  var myVar = setInterval(function() {
-    myTimer();
-  }, 1000);
- 
-  function myTimer() {
-    var timeVariable = new Date();
-    document.getElementById("clock").innerHTML = timeVariable.toLocaleTimeString();
-    document.getElementById("showDate").innerHTML = timeVariable.toLocaleDateString();
-  }
-</script>
+
 
 
 </body>
