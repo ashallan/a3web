@@ -31,12 +31,14 @@ body {
     color: black;
     text-align: center;
     flex-wrap: wrap;
+    font-style: italic;
   }
 
   #p3 {
     color: black;
     text-align: center;
     flex-wrap: wrap;
+    font-style: italic;
   }
   
   #clock {
@@ -137,6 +139,7 @@ body {
     cursor: crosshair;
     outline: none;
     color: #fff;
+    text-shadow: 1px 1px 1.25px black;
     background-color: rgb(204,139,101);
     border: none;
     border-radius: 15px;
@@ -150,12 +153,6 @@ body {
   box-shadow: 0 5px rgb(48, 48, 48);
   transform: translateY(4px);
   }
-
-
-
-
-
-
 
   .content { 
     margin-left: 225px;
