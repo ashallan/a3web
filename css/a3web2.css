@@ -11,6 +11,8 @@ body {
   * From  : https://www.w3schools.com/css/css3_gradients.asp
   ******************/
   /*Acting as a header that provides accent to the logo*/
+ /**Turning this off for the navbar. DELETE BEFORE SUBMISSION if we don't bring back**/
+
   .hero-head {
     background-image: linear-gradient(to right, rgba(89,86.3, 82.4,0),rgba(89,86.3, 82.4,1)); /*Gradient*/
     height: 95px;  /*Reference this height for responsive positioning of other elements, they should be below this ad the logo*/
@@ -20,10 +22,12 @@ body {
   }
   
   /***************** 
-  * Section : AK Experimenting Zone 
+  * Section : Javascript Clock Holder
   * Owner : Adrian Koornneef
-  * Date  : 
-  * From  : 
+  * Date  : 2022-12-06
+  * From  : https://codepen.io/Tcip/pen/BNKjeN
+            https://flexiple.com/javascript/javascript-clock/
+            https://developer.mozilla.org/en-US/docs/Web/CSS/border-radius
   ******************/
   .ClockHolder {
     position: right;
@@ -35,7 +39,7 @@ body {
     background-color: #E3DCD2;
     color:  black;
     text-align: center;
-    border-radius: 50% 20% / 10% 40%;
+    border-radius: 45% 20% / 10% 35%;
     margin: 20px;
   }
   
@@ -72,7 +76,7 @@ body {
           https://developer.mozilla.org/en-US/docs/Web/CSS/text-shadow
   
   ******************/
-  /*  */
+  
   .MAVsidenav {
     margin: 0;
     padding: 6px;
@@ -123,12 +127,7 @@ body {
     }
   }
   
-  
-  
-  
-  
-  
-  
+  /***********************/
   
   .content { 
     margin-left: 200px;
