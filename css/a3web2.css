@@ -11,6 +11,8 @@ body {
   * From  : https://www.w3schools.com/css/css3_gradients.asp
   ******************/
   /*Acting as a header that provides accent to the logo*/
+ /**Turning this off for the navbar. DELETE BEFORE SUBMISSION if we don't bring back**/
+
   .hero-head {
     background-image: linear-gradient(to right, rgba(89,86.3, 82.4,0),rgba(89,86.3, 82.4,1)); /*Gradient*/
     height: 95px;  /*Reference this height for responsive positioning of other elements, they should be below this ad the logo*/
@@ -37,7 +39,7 @@ body {
     background-color: #E3DCD2;
     color:  black;
     text-align: center;
-    border-radius: 50% 20% / 10% 40%;
+    border-radius: 45% 20% / 10% 35%;
     margin: 20px;
   }
   
