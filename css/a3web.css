@@ -414,10 +414,12 @@ div.pumpkin img {
 a.one:link, a.one:visited {
   background-color: #CC8B65;
   color: white;
-  padding: 18px 21px;
+  padding: 15px 19px;
   text-align:justify;
   text-decoration:none;
-  display:inline-grid;
+  display:inline-block;
+  margin-left: 5%;
+  padding-left: 10px;
 }
 
 a.one:hover, a.one:active {
