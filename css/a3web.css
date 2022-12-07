@@ -18,7 +18,6 @@ body {
             https://developer.mozilla.org/en-US/docs/Web/CSS/border-radius
   ******************/
   .ClockHolder {
-    position: right;
     border-style: outset;
     border-color: #100C0D;
     float: right;
@@ -50,13 +49,7 @@ body {
     text-align: center;
     flex-wrap: wrap;
   }
-  
-  #clock {
-    color: black;
-    text-align: center;
-    flex-wrap: wrap;
-  }
-  
+    
   #showDate {
     color: black;
     text-align: center;
