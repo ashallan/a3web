@@ -383,7 +383,7 @@ div.survey2 img {
 - From  : https://www.w3schools.com/cssref/playdemo.php?filename=playcss_text-shadow  */
 /* Style Images and header in Software Page*/
 div.software {
-  margin-left: 40%;
+  margin-left: 25%;
   padding-left: 8px;
   font-size: 15px;
   font-family: 'Roboto', sans-serif;
@@ -394,7 +394,7 @@ div.software {
 div.pumpkin img {
   width: 100%;
   height: auto;
-  margin-left: 90%;
+  margin-left: 60%;
   padding-left: 5px;
   border-radius: 70%;
 }
@@ -409,11 +409,10 @@ a.one:link, a.one:visited {
   background-color: #CC8B65;
   color: white;
   padding: 15px 19px;
-  text-align:justify;
-  text-decoration:none;
+  font-family: 'Roboto', sans-serif;
   display:inline-block;
-  margin-left: 5%;
-  padding-left: 10px;
+  margin-left: 1%;
+  padding-left: 3px;
 }
 
 a.one:hover, a.one:active {
