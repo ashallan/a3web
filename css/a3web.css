@@ -419,10 +419,10 @@ div.pumpkin img {
 a.one:link, a.one:visited {
   background-color: #CC8B65;
   color: white;
-  padding: 15px 19px;
+  padding: 5px 19px;
   font-family: 'Roboto', sans-serif;
-  display:inline-block;
-  margin-left: 1%;
+  display: table-cell;
+  margin-left: 6%;
   padding-left: 3px;
 }
 
