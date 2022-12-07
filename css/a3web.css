@@ -235,16 +235,7 @@ Owner: Khazana Ahmadli
 Date: November 28, 2022
 From https://www.w3schools.com/css/tryit.asp?filename=trycss_list-style-type_ex */ 
 
-/* Styles services content*/
-.services { 
-  margin-left: 225px;
-  padding-left: 10px;
-  font-size: 18px;
-  font-family: 'Roboto', sans-serif;
-  color: #b4b4b4;
-  padding-top: 75px;
-  line-height: 2.5;
-}
+
 /* Adds square bullets to the listed content */
 ul.square {
   list-style-type: square;
