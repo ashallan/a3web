@@ -7,11 +7,12 @@ body {
   /***************** 
   * Section : Javascript Clock Holder
   * Owner : Adrian Koornneef
-  * Date  : 2022-12-06
+  * Date  : 2022-12-07 (
   * From  : https://codepen.io/Tcip/pen/BNKjeN
             https://flexiple.com/javascript/javascript-clock/
             https://developer.mozilla.org/en-US/docs/Web/CSS/border-radius
   ******************/
+  /** Container that holds the javascript application on the index page -Adrian K **/
   .ClockHolder {
     border-style: outset;
     border-color: #100C0D;
@@ -21,10 +22,11 @@ body {
     background-color: #E3DCD2;
     color:  black;
     text-align: center;
-    border-radius: 50% 20% / 10% 40%;
+    border-radius: 50% 20% / 10% 40%; /** Gives the unique shape to the clock holder -Adrian K **/
     margin: 20px;
   }
   
+  /** Individual IDs used for Javascript application -Adrian K **/
   #p2 {
     color: black;
     text-align: center;
@@ -39,6 +41,7 @@ body {
     font-style: italic;
   }
   
+    /** This is where the time and date will be inserted into with the Javascript application -Adrian K **/
   #clock {
     color: black;
     text-align: center;
@@ -61,6 +64,8 @@ body {
           https://developer.mozilla.org/en-US/docs/Web/CSS/border-right
   
   ******************/
+
+  /** Main, static navbar -Adrian K **/
   .MAVsidenav {
     margin: 0;
     padding: 6px;
@@ -68,34 +73,37 @@ body {
     background-color:rgb(204,139,101);
     position: fixed;
     height: 100%;
-    overflow: auto;
-    border-right: 3mm ridge rgba(227, 220, 210, .6);
+    overflow: auto; /** How the navbar handles text that flows past borders. Should not be an issue with current sizing. -Adrian K **/
+    border-right: 3mm ridge rgba(227, 220, 210, .6); /** To give the accent on right hand side -Adrian K **/
   }
   
+  /** Links within the navbar -Adrian K **/
   .MAVsidenav a {
     display: block;
     color: black;
     padding: 16px;
     text-decoration: none;
-    text-shadow: 1px 1px 1.25px black;  /* last px variable determines size*/
+    text-shadow: 1px 1px 1.25px black;  /* last px variable determines size -AK **/
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
     color: #ffffff;
   }
    
+  /** To identify which page the user is currently visiting -Adrian K **/
   .MAVsidenav a.active {
     text-decoration: underline #013328;
     font-family: 'Roboto', sans-serif;
     color: #ffffff; 
   }
   
+  /** Characteristics of navbar when hovering the mouse over a link -AK **/
   .MAVsidenav a:hover {
     background-color: #E3DCD2 ;
     color: #100C0D;
     font-family: 'Roboto', sans-serif;
   }
   
-  /** Respsonsive element allows restacking of navbar **/
+  /** Respsonsive element allows restacking of navbar -AK **/
   /** Side Bar limit **/
   @media screen and (max-width: 700px) {
     .MAVsidenav {
@@ -103,9 +111,8 @@ body {
       height: auto;
       position: relative;
     }
-    .MAVsidenav a {float: left;}
-    div.content {margin-left: 0;}
-    
+    .MAVsidenav a {float: left;}   /** How links interact in topbar mode -AK **/
+    div.content {margin-left: 0;}   /** How the main page content holder div positions in relation to the Navbar -AK **/
   }
   
  /** Top Bar limit **/
@@ -115,6 +122,7 @@ body {
       float: none;
     }
   }
+
   /*************************************
   * Section : Button
   * Owner : Adrian Koornneef
@@ -124,22 +132,26 @@ body {
   https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_buttons_animate3
  *************************************/
 
+  /** Big inviting button used to activate the Javacript application on the index -AK  **/
   .MavButton {
     padding: 15px 25px;
     font-size: 21px;
     text-align: center;
-    cursor: crosshair;
+    cursor: crosshair; /** Changes the shape of the cursor when hovering with the button -AK **/
     outline: none;
     color: #fff;
-    text-shadow: 1px 1px 1.25px black;
+    text-shadow: 1px 1px 1.25px black; 
     background-color: rgb(204,139,101);
     border: none;
     border-radius: 15px;
     box-shadow: 0 5px rgb(48, 48, 48);
   }
 
+  /** Change the button to a different colour of the button when hovering -AK **/
   .MavButton:hover {background-color: #777777}
 
+   /** Change the colour and shape of the button to another different colour while the user is clicking -AK **/
+  /** Gives the impression of a button being pushed -AK**/
   .MavButton:active {
   background-color: #7700ff;
   box-shadow: 0 5px rgb(48, 48, 48);
@@ -181,15 +193,12 @@ p{
 }
 
 /* Style Logo - Khazana Ahmadli
-ADRIAN - I had to make some updates to this so that it was reshaped and sits in the navbar
-}
-
-*/
+Some edits included by Adrian K. for positioning*/
 .logo { 
   position: relative;
   padding-bottom: 10px;
   padding-left: 10px;
-  z-index: 1;
+  z-index: 1; /** Ensure the logo sits above the navbar and not underneath -AK **/
   width: 100%;
   height: auto;
 }
@@ -305,7 +314,6 @@ div.survey2 img {
   border-radius: 25px;
   margin-top: 180px;
 }
-
 
 
 /*
