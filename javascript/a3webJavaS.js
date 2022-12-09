@@ -13,18 +13,18 @@
 
 //initiate function called in HTML in the Clock holder -AK//
 function myFunction() {
-  document.getElementById("p2").innerHTML = "There's lots to explore.."; /// The text we want inserted on the button click -AK///
-  document.getElementById("p3").innerHTML = "But don't lose track of time!";
+  document.getElementById("p2").innerHTML="There's lots to explore.."; /// The text we want inserted on the button click -AK///
+  document.getElementById("p3").innerHTML="But don't lose track of time!";
   
   /// Variable re-initiates the myTimer function every second so the clock keeps updating -AK///
-  var myVar = setInterval(function() {
+  var myVar=setInterval(function() {
   myTimer();
 }, 1000);
 
  /// Function adds the date methods to the identified IDs in the HTML ///
 function myTimer() {
-  var timeVariable = new Date(); /// Identifies the date and time in a long string to feed to other sections of the code ///
-  document.getElementById("clock").innerHTML = timeVariable.toLocaleTimeString(); /// Breaks down the date method and takes just the local time ///
-  document.getElementById("showDate").innerHTML = timeVariable.toLocaleDateString(); /// Breaks down the date method and takes just the date ////
+  var timeVariable=new Date(); /// Identifies the date and time in a long string to feed to other sections of the code ///
+  document.getElementById("clock").innerHTML=timeVariable.toLocaleTimeString(); /// Breaks down the date method and takes just the local time ///
+  document.getElementById("showDate").innerHTML=timeVariable.toLocaleDateString(); /// Breaks down the date method and takes just the date ////
 }
 }
